@@ -1,0 +1,28 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "chat server with ws",
+  "main": "index.js",
+  "prettier": "prettier-config-standard",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Alan B.",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "express": "^4.17.2",
+    "prettier-config-standard": "^4.0.0",
+    "prompt": "^1.2.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "capture-console": "^1.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
